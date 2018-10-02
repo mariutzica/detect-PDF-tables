@@ -1,0 +1,550 @@
+                      Geophysical Journal International
+                Geophys. J. Int. (2013) 193, 1­10                                                                                               doi: 10.1093/gji/ggs071
+
+
+
+
+                Re-evaluation of the kinematics of Victoria Block using continuous
+                GNSS data
+
+                R. M. S. Fernandes,1,2 J. M. Miranda,3 D. Delvaux,4,5 D. S. Stamps6 and E. Saria6
+
+
+
+
+                                                                                                                                                                          GJI Geodynamics and tectonics
+                1 University  of Beira Interior, IDL, R. Marques d'Avila e Bolama, Covilh~
+                                                                                         a, Portugal. E-mail: rmanuel@di.ubi.pt
+                2 Faculty  of Aerospace Engineering, TU Delft, Kluyverweg, 1, Delft, The Netherlands
+                3 Instituto Portugu^es do Mar e Atmosfera IDL, Campo Grande, 1749-016 Lisboa, Portugal
+                4 Royal Museum for Central Africa, B3080 Tervuren, Belgium
+                5 School of Geosciences, University of the Witwatersrand, Johannesburg, South Africa
+                6 Department of Earth and Atmospheric Sciences, Purdue University, West Lafayette, IN 47907, USA
+
+
+
+
+                Accepted 2012 November 13. Received 2012 November 4; in original form 2012 July 15
+
+
+
+                                                         SUMMARY
+                                                         The divergent boundary between the Somalia and Nubia plates is a complex tectonic domain
+                                                         where extensional processes are localized along narrow rift structures, isolating small blocks
+                                                         imbedded within the East African Rift. One of these tectonic units is the Victoria Block,
+                                                         which is the subject of this study. Here we process space-geodetic data for 37 permanent
+                                                         GNSS stations distributed along Nubia, Somalia and Victoria to (1) compute the motion of
+                                                         the three tectonic units in the ITRF2008 reference frame and (2) deduce the relative motion
+                                                         of Victoria with respect to its neighbouring plates. The Nubia Plate motion is computed from
+                                                         a set of 25 stations, the Somalia Plate motion from a set of 7 stations and the Victoria motion
+                                                         from a set of 5 stations. Although the number and distribution of the used stations is still not
+                                                         optimal, the good adjustment between observed and predicted motions confirms that Victoria
+                                                         acts as a rigid tectonic block. The instantaneous relative Euler poles for the Nubia­Victoria
+                                                         and Somalia­Victoria pairs are now evaluated as 10.66o N, 32.98Eo , 0.120o Myr­1 and 8.02o S,
+                                                         32.29o E, 0.159o Myr­1 , respectively. The computation of the relative interplate velocities along
+                                                         Victoria's boundary is straightforward in most situations because the western and northeastern
+                                                         boundary segments correspond to well-developed rift basins, where extension is mostly normal
+                                                         to rift basin flanks and seismicity concentrates along narrow structures. This is particularly
+                                                         evident on the Western Branch between Victoria and Nubia. The southeastern limit of the
+                                                         Victoria Block is poorly defined, and geodetic data indicate that differential motion between
+                                                         Somalia and Victoria may be accommodated by a complex boundary area, which roughly
+                                                         encompasses the Masai Terrain. Geodetic observations of the Victoria­Somalia boundary
+                                                         along the Eastern Branch, particularly in the Manyara Rift, reveal highly oblique horizontal
+                                                         extension. In this region seismicity is sparse which suggests that strain is accommodated by
+                                                         magmatic processes.
+                                                         Key words: Satellite geodesy; Plate motions; Continental neotectonics; Africa.
+
+
+                                                                                                 (e.g. Sella et al. 2002; Fernandes et al. 2004; Prawirodirdjo & Bock
+                1 I N T RO D U C T I O N
+                                                                                                 2004; Stamps et al. 2008). When the observation period of geodetic
+                The East African Rift (EAR) system extends for more than 5000 km                 measurements at stable sites is sufficient to produce velocities with
+                across Africa and is often used as a natural laboratory for the study            95 per cent uncertainties smaller than the velocity itself, typically
+                of continental rifting at an early stage (e.g. Nicholas et al. 1994;             a 3.5-yr minimum period for continuous GPS (Blewitt & Lavallee
+                Calais et al. 2008; Corti 2009; Delvaux & Barth 2010 and refer-                  2002), they can be used for robust kinematic interpretations that
+                ences therein). Space geodesy has contributed to the understanding               can be compared with geological observations.
+                of this complex tectonic system by providing direct measurements                    Within the Nubia­Somalia boundary domain there are a num-
+                of surface displacement, permitting the identification and character-            ber of lithospheric blocks surrounded by active rift structures with
+                ization of the present-day kinematics of the two major lithospheric              known geological and/or seismic signatures (cf. Fig. 1). Calais et al.
+                plates that diverge across the EAR: the Nubia (NUBI) and Soma-                   (2006) used GPS observations and earthquake slip vectors to show
+                lia (SMLA) plates, and the complex tectonic system between them                  that two of these blocks should be interpreted as additional tectonic
+
+
+                C   The Authors 2013. Published by Oxford University Press on behalf of The Royal Astronomical Society.                                              1
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+            2     R. M. S. Fernandes et al.
+
+
+
+
+            Figure 1. Seismicity for the studied area (IRIS 2011) roughly defining the limits of the three studied plates: Nubia (NUBI), Somalia (SMLA) and Victoria
+            (VICT). The approximate locations of Rovuma (RVMA) and Lwandle (LWDL) are also indicated. GNSS stations used on the computation of the angular
+            velocities are white--triangles (Nubia), stars (Somalia) and squares (Victoria). The dark circles indicate stations excluded from the analysis (see text for more
+            details). The locations of the Somalia­Nubia relative Euler pole are also indicated as dark stars for this work and other previous published solutions: F04,
+            Fernandes et al. (2004); C06, Calais et al. (2006); H07, Horner-Johnson et al. (2007); S08, Stamps et al. (2008); G10, Argus et al. (2010).
+
+            blocks (Victoria, Rovuma) and quantified the angular rotation of                    et al. (2006) hypothesized that the Victoria Block is formed by
+            the Victoria Block. Based on plate closure, Horner-Johnson et al.                   the Tanzania Craton and bounded by two branches (Western and
+            (2007) determined the existence of the Lwandle Block, also shown                    Eastern) of the EAR. The Victoria­Rovuma tectonic boundary is
+            in Fig. 1, and calculated the angular velocity from spreading rates                 poorly defined, but may correspond with the Usangu-Ruaha, Kilo-
+            and transform fault azimuths. Stamps et al. (2008) derived the first                mbero and the Ruhuhu rifts, which were interpreted by LeGall et al.
+            complete kinematic model of the EAR by inverting space-geodetic                     (2004) as the southern link between the Eastern and Western rift
+            solutions with other geophysical data (spreading rates, earthquake                  branches to the southeast of the Tanzania Craton.
+            slip vectors and transform-fault azimuths) to support the interpre-                    In recent years the quantity and quality of continuous GNSS
+            tation of the three above-mentioned tectonic blocks and to derive                   stations has increased gradually in East Africa, hence improving
+            consistent angular velocities for the whole set.                                    the capability of space-geodetic data to decipher the deformation
+               The objective of this work is to focus on the best defined of these              patterns of the Victoria boundaries. To do so, we reassess the an-
+            units, the Victoria Block, which has been referenced as Victoria                    gular velocities of the Nubia and Somalia plates using a new set of
+            (Kaz'min et al. 1987) and Ukerewe (Hartnady 2002). Previously,                      derived-GNSS position solutions based exclusively on continuous
+            its limits could not be defined by space-geodetic methods alone due                 GNSS stations and using the latest realization of the International
+            to limitations in the spatial coverage of the GNSS stations. Calais                 Terrestrial Reference System: ITRF2008 (Altamimi et al. 2011).
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+                                                                                                                                Kinematics of Victoria Block            3
+
+                We compute the motion of Victoria with respect to its neighbouring              nitude seismicity (e.g. Albaric et al. 2009). The Western Branch
+                plates (Nubia and Somalia) and we discuss the implications of the               comprises the Albertine and Kivu rifts in the northwest and the
+                obtained solutions on the rifting geometry at this segment of the               Tanganyika­Rukwa­Malawi rift system in the southwest (cf. Fig. 2).
+                EAR.                                                                            The Eastern Branch is formed by the north­south oriented Kenya
+                                                                                                Rift which splays southwards in the North Tanzanian Divergence
+                                                                                                zone in three smaller rift segments: Eyasi, Manyara and Pan-
+                                                                                                gani Rifts (LeGall et al. 2004). The Manyara segment contin-
+                2 R E G I O NA L S E T T I N G
+                                                                                                ues southwards to the Dodoma region (Macheyeki et al. 2008)
+                South of the Main Ethiopian Rift, which marks the northern seg-                 and joins the Kilombero and Ruaha­Usangu Rift system through
+                ment of the Nubia­Somalia Plate boundary across the East African                which makes the Western and Eastern Branches connection with the
+                Plateau, there is a marked increase in the tectonic complexity of               Western Branch in the Rungwe Volcanic Province (Ebinger 1989).
+                the domain lying between these two large plates. The EAR splits                 The Kilombero Rift is interpreted as the reactivation of previous
+                into two branches (cf. Fig. 2), the Western Branch, character-                  Karoo (Permo-Triassic) rifting episodes associated with the Pangea
+                ized by higher magnitude, deeper seismicity (Yang & Chen 2010;                  breakup (Delvaux 2001; LeGall et al. 2004).
+                Lindenfield & Rumpker 2011) and relatively small amounts of                        The two branches, located between 2 N and 10 S, bound
+                volcanic activity (Ebinger 1989) compared to the Eastern Branch,                an approximately 1000 m high, 1.3 million km2 topographic
+                which has voluminous magmatic activity and shallower, lower mag-                plateau that corresponds approximately to the Tanzania Craton. The
+
+
+
+
+                Figure 2. Tectonic sketch of Victoria Block GNSS stations used on the computation of the angular velocity for Victoria and other stations discussed in the
+                text are marked with triangles. Focal mechanisms from Global CMT catalogue (Global CMT 2011) for the period 1976­2011 and magnitude larger than 5.5.
+                Geological sketch adapted from LeGall et al. (2004) and Delvaux & Barth (2010). The 1000 m contour (darker grey) approximately defines the Tanzanian
+                Plateau.
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+            4    R. M. S. Fernandes et al.
+
+            Tanzania Craton is formed by an old lithosphere composed of rel-        & Jackson 1998; Yang & Chen 2010) suggests the Kilombero area
+            atively undisturbed Archean to early Proterozoic terranes and is        is indeed the southeastern boundary of the Victoria Block.
+            surrounded by remnants of Palaeoproterozoic to Neoproterozoic
+            mobile belts (Kaz'min et al. 1987; Delvaux 2001; Weeraratne et al.
+            2003). Present-day rifting associated with the Victoria Block fol-
+                                                                                    3 METHODOLOGY
+            lows these pre-existing structures (e.g. Corti 2009).
+               While Cenozoic rifting in the EAR initiated 40 Ma with vol-          Fig. 1 shows the distribution of the continuous GNSS stations eval-
+            canism in the Turkana Rift (George et al. 1998), its propagation into   uated in this work. The total number of permanent stations in Africa
+            southern Kenya is younger than 25 Myr. At the latitude of the Tan-      for which we are able to compute daily solutions is greater than 200
+            zania Craton, rifting propagated southward from 12 Myr in Western       stations. This includes some stations that are no longer available but
+            Branch (Ebinger 1989) and after 5 Myr along the Eastern Branch          which time-series are long enough to provide useful information
+            (Macheyeki et al. 2008). The southward expansion of the Manyara         (e.g. MALI--Malindi, Kenya). However, the majority of existing
+            Rift within the Eastern Branch began even later at about 1.2 Ma         stations in Africa still have short observation periods (installed in the
+            (Macheyeki et al. 2008).                                                last 2­3 yr) and/or have significant gaps. Therefore, in some cases,
+               Focal mechanisms of large earthquakes have been used to char-        the derived time-series resembles campaign solutions, mainly due
+            acterize the stress regime along the different boundary domains of      to communication problems even if no reinstallation/replacement
+            Victoria and show that the Eastern and Western Branches are in          of receiver and/or antenna has occurred.
+            overall E­W extension (Foster & Jackson 1998; Brazier et al. 2005;         Our data sets were mainly retrieved from international
+            Delvaux & Barth 2010; Yang & Chen 2010). In the northern West-          data centres, namely CDDIS (http://cddis.nasa.gov/), UNAVCO
+            ern Branch, most earthquakes of the events are dip-slip with an ESE     (http://www.unavco.org/) and AFREF (ftp://ftp.afref.org/). In ad-
+            extension, normal to the Kivu Rift system.                              dition to these data sets, some of our local partners, whose data
+               Along the southern Western Branch and the Rukwa Rift, earth-         are not publicly available, provided observations that permitted to
+            quake focal mechanisms show dominantly normal faulting but              densify the number of solutions in our area of interest, for example,
+            strike-slip mechanisms are also present (Brazier et al. 2005;           KSMU, ELDS, MOSH and SCTR.
+            Delvaux & Barth 2010). Field structural investigations show that           To compute the position time-series, we first compute daily so-
+            faulting in the Rukwa Rift during the Late Cenozoic are pure normal     lutions using the GIPSY-OASIS II version 5.0 software package
+            dip-slip type (Delvaux et al. 2012), but the regime changes rapidly     (Webb & Zumberge 1995) with the PPP--Precise Point Positioning
+            into strike-slip faulting in the Rungwe volcanic area at the junction   strategy (Zumberge et al. 1997). In a second step, the ambiguities
+            between the Rukwa and Malawi Rifts (Delvaux et al. 1992). On            were attempted to be fixed using AMBIZAP (Blewitt 2008). This
+            the northeastern border of the Victoria Block there is evidence for     application permits us to process large networks by estimating the
+            distributed block deformation close to the North Tanzania Diver-        integer ambiguity values using optimized linear combinations of
+            gence where the Eastern Branch follows the poorly defined margin        pairs of stations.
+            between the Tanzania Craton and the Mozambique Belt, with ap-              Finally, the alignment into ITRF2008 of the daily solutions was
+            proximately E­W extension (Brazier et al. 2005; Macheyeki et al.        carried out by estimating a seven-parameter Helmert transformation
+            2008; Delvaux & Barth 2010).                                            using more than 100 IGS stations globally distributed as reference.
+               Calais et al. (2006) combined GPS data and earthquake slip vec-      The core of this reference network is the set of IGS08 stations
+            tors to derive the first estimate of the counter-clockwise relative     (Rebischung et al. 2011) added with some former IGS stations to
+            motion between Victoria and Nubia. Stamps et al. (2008) deter-          maintain the consistency of the reference network as well as possible
+            mined a new pole of rotation for VICT­NUBI using also geological        through the years (since 1996). We limited the estimation of the
+            data at 8.370 N/32.589 E/0.1294 /Myr. Their result corresponds to       initial velocity field to stations located on the assumed stable part
+            a counter-clockwise rotation of the Victoria Block relative to Nubia    of the tectonic blocks and with a sufficient long data span: >3.0 yr
+            with a constant increment of the relative velocity along the western    for Nubia and >2.0 yr for Somalia and Victoria.
+            boundary of the Victoria Block from approximately 1 mm yr­1 in the         The computation of the velocity field was carried out with the
+            north up to 4 mm yr­1 in the south at the Nubia­Victoria­Rovuma         procedures described by Bos et al. (2008), using the time-series
+            Triple Junction. The instantaneous pole of rotation between Vic-        analysis service that is publicly available at http://www.geodac.net.
+            toria and Somalia computed by Stamps et al. (2008) is located at        A linear trend is estimated, together with a seasonal signal when
+            9.319 S/33.538 E/0.2024 /Myr resulting in a decrease of the rel-        the data span is longer than 3 yr as well as identified jumps (off-
+            ative velocity along the eastern Victoria boundary from approxi-        sets) in the North, East and Up components. The epochs for the
+            mately 5 mm yr­1 in the north up to less than 1 mm yr­1 in the south.   detected offsets are included to also estimate their magnitude in
+            Both rotation poles indicate counter-clockwise motion of Victoria       the three components during the analysis. The estimation of the
+            with respect to both Nubia and Somalia and the localization of the      associated uncertainty takes into account the temporal correlation
+            larger strain rates in the southern sector of the Western Branch and    of the observations assuming a white plus power-law noise model
+            in the northern sector of the Eastern Branch.                           for which the values of the variances and the spectral index were
+               LeGall et al. (2004) interpreted the complex tectonics of the        computed during the estimation process. Although this approach in-
+            Kilombero area as the spatial link between both the Western and         hibits the explicit computation of correlations between the different
+            Eastern Branches of the EAR south of the Tanzania Craton. How-          components of each velocity, it reflects more properly the real errors
+            ever, the instantaneous rotation pole computed by Stamps et al.         on the velocity estimation (the values are increased by factors of
+            (2008) for Rovuma, corresponds to a clockwise motion of this            5­10) since the associated uncertainties are not only based on the
+            block with respect to Nubia and Somalia, and suggests differential      formal errors.
+            motion between Victoria and Rovuma along the southern border of            Finally, we performed an iterative process to compute the angular
+            Victoria. The differential motion across the Kilombero area indi-       velocities for each block individually. We used the same algorithm
+            cated by Stamps et al. (2008) combined with low seismicity (Foster      developed by DeMets et al. (1990) to compute NUVEL-1. In this
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+                                                                                                                             Kinematics of Victoria Block           5
+
+                          Table 1. Continuous GNSS stations used for the computation of Nubia, Somalia and Victoria motion with respect to ITRF2008.
+                                     SITE       Longitude     Latitude       Initial date   Final date     Processed days    VE (mm yr-1 )   VN (mm yr­1 )
+                          Nubia      BWES       22.57356      -32.34738      05-07-2004     24-09-2011          2210         16.71 ± 0.52    18.84 ± 0.24
+                                     DEAR       23.99264      -30.66520      01-09-2000     24-09-2011          2668         16.85 ± 0.20    18.89 ± 0.16
+                                     DJOU       1.66163       9.69207        24-08-2005     13-05-2009          1315         20.71 ± 0.42    19.33 ± 0.63
+                                     GAO1       -0.00601      16.25211       29-08-2005     13-07-2009          1225         20.19 ± 0.35    19.57 ± 0.47
+                                     GOUG       -9.88072      -40.34883      14-08-1998     18-09-2008          2618         21.36 ± 0.42    18.23 ± 0.34
+                                     GRHM       26.50718      -33.32006      01-01-2006     30-06-2011          1725         15.14 ± 0.35    18.88 ± 0.37
+                                     HARB       27.70724      -25.88696      12-08-2000     24-09-2011          3857         17.69 ± 0.16    18.56 ± 0.10
+                                     INHB       35.38327      -23.87115      10-11-2007     23-09-2011          478          16.72 ± 2.00    17.69 ± 1.00
+                                     KMAN       23.43248      -27.46078      17-04-2002     31-05-2011          2955         17.67 ± 0.37    18.80 ± 0.17
+                                     LSMH       29.78149      -28.55765      12-01-2002     30-06-2011          2640         16.34 ± 0.21    18.26 ± 0.16
+                                     NKLG       9.67212       0.35391        31-03-2000     24-09-2011          3885         22.25 ± 0.32    19.12 ± 0.11
+                                     NMEY       2.18319       13.47926       29-05-2005     13-10-2009          1541         21.44 ± 0.45    19.64 ± 0.32
+                                     NSPT       30.97517      -25.47534      10-03-2001     30-06-2011          3109         17.26 ± 0.17    17.89 ± 0.26
+                                     OUAG       -1.51250      12.35639       30-05-2006     04-10-2009          1145         20.66 ± 0.58    18.81 ± 0.42
+                                     PSAN       -16.33790     33.08557       27-03-2006     19-09-2009          1085         14.08 ± 0.71    17.04 ± 0.43
+                                     RECT       4.52447       7.50549        21-07-2007     03-04-2011          501          21.22 ± 0.75    19.10 ± 0.39
+                                     RIBJ       -17.16047     32.84537       27-03-2006     22-09-2009          1042         14.18 ± 0.55    16.75 ± 0.32
+                                     SBOK       17.87921      -29.66933      23-08-2000     16-06-2011          3288         17.89 ± 0.17    19.30 ± 0.15
+                                     SIMO       18.43958      -34.18794      09-08-2001     02-01-2009          1371         16.83 ± 0.53    19.24 ± 0.28
+                                     STMP       6.73749       0.34453        25-10-2006     24-09-2011           388         21.39 ± 0.56    18.97 ± 0.26
+                                     TAMP       5.52964       22.79265       01-03-2004     22-10-2007          1119         20.37 ± 0.74    19.00 ± 0.39
+                                     UMTA       28.67250      -31.54877      24-07-2000     25-06-2011          2855         16.19 ± 0.20    18.3 ± 0.19
+                                     UPTN       21.25587      -28.41365      17-04-2002     27-09-2007          1411         18.02 ± 0.43    19.14 ± 0.21
+                                     WIND       17.08943      -22.57492      12-02-2007     16-01-2011          1374         19.11 ± 0.51    19.37 ± 0.23
+                                     YKRO       -5.24009      6.87056        18-07-1999     21-12-2010           758         21.89 ± 0.18    18.34 ± 0.25
+                          Somalia    KISM       36.85668      -1.25021       20-04-1998     19-03-2007          492          27.35 ± 1.56    17.91 ± 0.43
+                                     MAL2       40.19414      -2.99606       10-07-2008     24-09-2011          1140         26.31 ± 0.66    16.33 ± 0.53
+                                     MALI       40.19440      -2.99591       07­01-1996     11-09-2008          4275         27.32 ± 0.28    16.12 ± 0.13
+                                     RCMN       36.89348      -1.22083       20-03-2007     13-01-2011          1145         25.49 ± 0.41    16.47 ± 0.20
+                                     REUN       55.57172      -21.20823      14-04-1999     10-04-2009          2161         18.79 ± 0.54    11.45 ± 0.21
+                                     SCTR       54.00597      12.64779       01-03-2008     20­01-2011           646         29.56 ± 0.77    12.51 ± 0.93
+                                     SEY1       55.47940      -4.67372       23-01-1996     24-09-2011          3052         25.64 ± 0.35    12.83 ± 0.43
+                          Victoria   ELDS       35.27716      +0.51871       01-05-2001     11-02-2007          188          24.99 ± 1.59    18.06 ± 1.38
+                                     KSMU       34.75614      -0.10407       10-03-2002     12-05-2008          591          24.75 ± 0.69    18.55 ± 0.89
+                                     MBAR       30.73788      -0.60147       17-07-2001     24-09-2011          2441         25.19 ± 0.45    17.85 ± 0.52
+                                     MOIU       35.29001      +0.28832       15-11-2008     24-09-2011          890          23.47 ± 0.69    17.68 ± 0.61
+                                     NURK       30.08968      -1.94455       05-12-2008     24-09-2011          975          26.10 ± 1.92    17.18 ± 1.25
+
+
+
+                process, we have excluded some stations presenting unusually high-
+                velocity residuals that were not compatible with the expected mo-             4 K I N E M AT I C S O F V I C T O R I A B L O C K
+                tions. In particular, we have excluded stations with residuals greater        The estimated angular velocities with respect to the ITRF2008
+                than 1.5 mm yr­1 (using an iterative process where we excluded the            global reference frame are presented in Table 2. ITRF2008 is by
+                one with largest value of the residual at each iteration). We attribute       definition a no-net-rotation frame (Altamimi et al. 2011). Conse-
+                these residuals to different reasons. At some stations the computed           quently, the predicted velocity at each point on the Earth's surface
+                magnitude of identified jumps due to known equipment replacement              can be considered as representative of their absolute motion on a
+                or unknown reasons may have unaccounted for errors. We also did               global frame. To know the relative motions between the three dis-
+                not exclude local problems (e.g. monument stability) at some of               cussed tectonic block pairs is necessary to differentiate the values
+                the locations. In the case of Nubia, we were even stricter on the             presented in Table 2. Their representation using Euler poles are
+                accepted residuals (<1 mm yr­1 ), in particular for the stations in           shown in Fig. 1 (for the pair Nubia­Somalia) and in Fig. 4 (for the
+                South Africa due to the large number of available stations in this            pairs Nubia­Victoria and Somalia­Victoria).
+                region (cf. Fig. 1). We decided to only include some of the South                The comparison between the relative motion across the Victoria
+                African stations on our computation instead of the entire data set.           boundary and its relationship with rifting as measured by tectonics
+                If we have used the same criteria as applied in the other regions             is easily done along the Western Branch, where rifting is focused
+                (data span larger than 3 yr) the final solution would be biased by            and the tectonic boundary is marked by well-defined rift basins.
+                the large concentration of stations in this part of the continent. All        However this is more difficult to achieve along the southeast border
+                stations removed during our iterative processed as well as their resid-       between Victoria and Somalia, because of the low level of seismicity
+                uals with respect to the predicted velocities are listed in Table S1.         and poor morphological expression, and therefore it cannot be used
+                Table 1 shows the final list of velocities used to com-                       to detect active rift processes; even if the geometry of the rift basins
+                pute the angular velocities for Nubia, Somalia and Victoria,                  does not point to a focused boundary. Fig. 3 presents the comparison
+                respectively.                                                                 between the velocity estimate for eight stations and what should be
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+            6        R. M. S. Fernandes et al.
+
+            Table 2. Angular velocity estimates and associated angular uncertainties for Nubia, Somalia and Victoria expressed with respect to ITRF2008.
+             Plate                  Angular velocity                                                            Uncertainties
+                            X               Y               Z              2X              2Y              2Z               XY             XZ               YZ
+            NUBI +0.56102 × 10-3 -0.29779 × 10-2 0.34882 × 10-2 0.47343 × 10-9 0.94129 × 10-10 0.16055 × 10-9 0.14305 × 109 -0.16322 × 10-9 -0.57559 × 10-10
+            SMLA -0.39629 × 10-4 -0.33283 × 10-2 0.42611 × 10-2 0.58963 × 10-8 0.51712 × 10-8 0.77524 × 10-9 0.53123 × 10-8 -0.54160 × 10-9 -0.50817 × 10-9
+            VICT +0.22823 × 10-2 -0.18612 × 10-2 0.38743 × 10-2 0.12051 × 10-5 0.50700 × 10-6 0.25520 × 10-8 0.77859 × 10-6 -0.73528 × 10-8 -0.47607 × 10-8
+
+
+
+
+            Figure 3. Comparison between the estimated velocities (with 1- uncertainty) for the stations in the Victoria region and the predicted rigid body velocity
+            computed for the three tectonic blocks: Nubia, Somalia and Victoria.
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+                                                                                                                                  Kinematics of Victoria Block            7
+
+
+
+
+                Figure 4. Location of the rotation poles for Nubia­Victoria and Victoria­Somalia plate pairs. Small black stars indicate the determinations made by Stamps
+                et al. (2008). Relative motions represented by dark grey vectors along the Nubia­Victoria plate boundary are referred to fixed Nubia, while relative motions
+                along the Victoria­Somalia plate boundary are relative to fixed Victoria.
+
+
+                measured in case it was attached to rigid Nubia, Somalia or Victoria.            and so, we hypothesize that the Masai Terrain is mostly attached to
+                It can be observed that, within the accuracy limits, ELDS, KSMU,                 the Victoria Block.
+                MBAR and even NURK are in good agreement (within 95 per                             The uncertainties due to the relatively short data spans and/or
+                cent confidence intervals) with the kinematic parameters deduced                 the existence of data gaps are evident when we compare the time-
+                for Victoria and that MALI/MAL2 is coherent with Somalia mean                    series for ELDS and MOIU (see Supporting Information). ELDS
+                motion (cf. Fig. 2 for locations). A different situation arises for              has a longer data span but has significant data gaps whereas the
+                MOSH, that moves with an intermediate velocity between Victoria                  time-series for MOIU is still short (less than 3 yr, cf. Table 1). The
+                and Somalia. The RCMN/KISM pair was used to compute the                          magnitude of the differences in the estimated motion, 0.4 mm yr­1
+                pole for Somalia since their residuals were within the threshold                 and 1.5 mm yr­1 in North and East component, respectively, are
+                value. However, they also present velocities that are not completely             likely due to observational errors rather than due to real physical
+                compatible with Somalia (cf. Fig. 3). This can be interpreted as a               signals. Hence the real uncertainty associated with the motions for
+                consequence of their location in the interblock deformation domain               these stations is expressed in the estimated uncertainties since they
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+            8    R. M. S. Fernandes et al.
+
+            are larger than the differences between the velocities of the two           Geodetic data provide information concerning the limits of the
+            stations.                                                                plates, interpreted as rigid blocks, in particular regarding the Vic-
+               Fig. 4 shows the location of the relative rotation poles for          toria Block. Clearly its western boundary follows a succession of
+            Victoria­Nubia and Victoria­Somalia, as well as the relative ve-         seismically active rift basins that separate Nubian from Victorian
+            locities along the Western and Eastern rift branches. Note that these    velocities, and Manyara Rift bounds the eastern margin up to the
+            velocities are not referred to the same referential: the velocities      latitude 3o S. South of this limit interplate deformation is accom-
+            along the western border are relative to fixed Nubia, while the ve-      modated by a complex system of normal faults which encompass
+            locities along the eastern border are referred to fixed Victoria.        the Masai Terrain. This is consistent with the tectonic interpreta-
+               Along the Western Branch, relative linear velocity shows a con-       tion made by LeGall et al. (2004) where the Pangani Rift meets
+            tinuous southward increase between 2.0 mm yr­1 , with N96E direc-        the Kerimbas Rift offshore through an oblique fault which could
+            tion, close to the Albertine Rift, up to 4.3 mm yr­1 with N90E direc-    be interpreted as a very slow right-lateral dextral strike-slip fault
+            tion, in the southern tip of Rukwa Rift. Along the Eastern Branch,       (2 mm yr­1 , cf. Fig. 4). We suggest this structure corresponds to
+            relative linear velocity shows a continuous southward decrease be-       the southeastern boundary of the Victoria Block.
+            tween 4.0 mm yr­1 , with N113E direction, close to the Kenya Rift           Delvaux & Barth (2010) inverted focal mechanisms to compute
+            down to 2.3 mm yr­1 , with N160E direction, on the eastern bor-          the mean direction of horizontal extension on most of the seg-
+            der of the Masai Terrain. The comparison between the velocity            ments along the Victoria Block boundaries, which can be directly
+            computed by the space-geodetic techniques and the determination          compared with the rigid block motion parameters presented here.
+            made by tectonic methods (Ebinger 1989) is impossible, because           Along the Western Branch geodetic and seismic data compare rela-
+            rifting processes have not been stable during the whole geological       tively well for the Albertine Rift (N096E and N121E, respectively),
+            period, as shown by Macheyeki et al. (2008) and Delvaux et al.           Kivu Rift (N100E and N128E) and North Tanganyika (N101E
+            (1992).                                                                  and N84E) but large deviations exist along the South Tanganika
+                                                                                     (N097E and N052E) and Rukwa Rift (N090E and N035E). In the
+                                                                                     Eastern Branch along the Manyara Rift segment there is a signif-
+                                                                                     icant difference between both determinations (N123E and N073E;
+            5 D I S C U S S I O N A N D C O N C LU S I O N S
+                                                                                     Delvaux & Barth 2010); a previous determination made by
+            Data presented here are the result of re-processing of GNSS per-         Macheyeki et al. (2008) for Manyara Rift pointed also to a sim-
+            manent stations covering Nubia, Somalia and Victoria using the           ilar result (N080E).
+            ITRF2008 reference frame. The time-series for each station have             Rifting direction deduced from geodetic data is mostly orthogonal
+            a sufficient data span to ensure an improvement with respect to          between Albertine and Kivu rifts, but to the south, particularly
+            previous determinations of Victoria motion (Fernandes et al. 2004;       along the Rukwa Rift, the obliquity between the interblock velocity
+            Calais et al. 2006; Stamps et al. 2008). We did not take into ac-        and the rift flanks is large (cf. Fig. 4). This finding supports the
+            count elastic strain accumulation close to the tectonic boundaries       Delvaux & Barth (2010) inversion of seismic data and Delvaux
+            because most geodetic sites are located more than 100 km away from       et al. (2012) inversion of geological data that suggest the Rukwa
+            them. The exceptions are RCMN and KISM stations located close            Rift basin is under orthogonal opening. In the Eastern Branch there
+            to Nairobi, approximately 50 km away from Manyara Rift, which            is also large apparent obliquity on the Manyara Rift segment, as the
+            were used in the computation of the Somalia angular velocity. We         rift flanks, the morphological expression of the rift basin and even
+            use RCMN and KISM in the final solutions due to the still small          the inversion of focal mechanism data point to N075E extension,
+            number of GNSS stations with observations long enough to provide         while the relative interblock velocity is in the N123E direction. The
+            an accurate computation of the Somalia mean velocity. The number         results of focal mechanism inversion, which are corroborated by
+            of individual solutions for Somalia, seven solutions at five distinct    the morphological expression of the rift segments, suggest that the
+            locations, did not increase significantly with respect to the stations   movement of Victoria cannot be expressed by a simple rigid body
+            used in previous solutions (e.g. Fernandes et al. 2004; Calais et al.    in this boundary or the importance of local (magmatic) processes is
+            2006; Stamps et al. 2008; Argus et al. 2010). However, the use of        large as a driven mechanism for rifting.
+            a station in the northern tip of the Somalia plate (SCTR--Socotra)          Geodetic determinations of extension rates when extrapolated to
+            provides an important constraint on the Somalia Plate motion that        the ages determined for the initiation of rifting systematically point
+            was not available for the previously published solutions. The re-        to rates larger than those deduced from the analysis of fault geometry
+            moval of the pair RCMN/KISM would imply an average increment             by a factor 2. Similar results were obtained in previous works (e.g.
+            of 0.2 mm yr­1 on the opening of Somalia with respect to Nubia           Calais et al. 2006) and attributed to variations in extension rates,
+            (and Victoria). The use of both stations for Somalia solution does       probably lower during the early stages of rifting. However we cannot
+            not tightly constrain the solution for Somalia since, as shown in        discard the influence of the a priori geometrical modulation used
+            Fig. 3, RCMN/KISM (and also MOSH) still present velocities that          for the computation of finite extension (e.g. Ebinger 1989) and the
+            are transitional between Somalia and Victoria.                           difficulty in establishing the age for rifting initiation in the different
+               We compare in Fig. 1 our computed relative pole between Somalia       segments of the tectonic boundary.
+            and Nubia with several other solutions. All solutions are concen-           The location of the Nubia­Victoria instantaneous rotation pole
+            trated near the Southeast Indian Ridge which implies minimal, if         implies southward increase of the relative velocity along the West-
+            any, relative deformation in this area (which, assuming the existence    ern Branch if we assume that Victoria Block is mostly rigid. This
+            of the Lwandle Block is also no point of contact between Nubia and       means the Rukwa Rift is presently extending with a rate more
+            Somalia). The major implication of our solution for the Somalia­         than twice the Albertine Rift. This result is compatible with the
+            Nubia pair is a smaller rate (5.7 mm yr­1 with azimuth S82E at 10o N;    suggestion of Kaz'min et al. (1987) and Roberts et al. (2012)
+            40o E) of the opening in the Afar region (but consistent in azimuth      that rifting has developed northwards along the western margin
+            with the Ethiopian Rift) than the previous studies.                      of the Victoria Block, although active propagation is not strictly
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+                                                                                                                                    Kinematics of Victoria Block              9
+
+                required to explain our kinematic northward decrease of the rift-                   the velocity of the Earth's centre from space geodesy, Geophys. J. Int.,
+                ing rate. Along the Eastern Branch the relative velocity between                    18, 1­48.
+                Victoria and Somalia decreases significantly from focused, magma-                 Blewitt, G., 2008. Fixed point theorems of GPS carrier phase ambiguity
+                assisted rifting along Kenya and Manyara rifts, to a distributed                    resolution and their application to massive network processing: Ambizap,
+                                                                                                    J. geophys. Res., 113(B12410), doi:10.1029/2008JB005736.
+                deformation zone further south into the North Tanzania Divergence
+                                                                                                  Blewitt, G. & Lavallee, D., 2002. Effect of annual signals on geodetic
+                Zone. Once again, this is compatible with, but does not necessar-
+                                                                                                    velocity, J. geophys. Res., 107(B7), doi:10.1029/2001JB000570.
+                ily imply, a southward propagation of the Manyara Rift segment                    Bos, M.S., Fernandes, R.M.S., Williams, S.D.P. & Bastos, L., 2008. Fast
+                (Macheyeki et al. 2008).                                                            error analysis of continuous GPS observations, J. Geod., 82, 157­166.
+                    The Victoria Block and its geodynamic behaviour in Cenozoic                   Brazier, R.A., Nyblade, A.A. & Florentin, J., 2005. Focal mechanisms and
+                times is the result of continental rifting on an uplifted East Africa               the stress regime in NE and SW Tanzania, East Africa, Geophys. Res.
+                plateau that encompasses relatively undisturbed Archean to early                    Lett., 32, doi:10.1029/2005GL023156.
+                Palaeoproterozoic terranes. The development of the plateau began                  Calais, E., Ebinger, C.J., Hartnady, C. & Nocquet, J.M., 2006. Kinematics
+                approximately 23 Ma, in early Miocene times (Ebinger 1989)                          of the East African Rift from GPS and earthquake slip vector data, in The
+                when similar processes took place in other areas of the Nubia                       Afar Volcanic Province within the East African Rift System, Vol. 259, pp.
+                                                                                                    9­22, eds Yirgu, G., Ebinger, C.J. & Maguire, P.K.H., Geol. Soc. Spec.
+                boundaries (e.g. Azores, see Luis & Miranda 2008), and much
+                                                                                                    Publ.
+                earlier than the rifting itself. From 12­15 Ma to 8 Ma, the EAR in-
+                                                                                                  Calais, E. et al., 2008. Strain accommodation by slow slip and dyking in a
+                teracted with the plateau, and rifting developed close to the western               youthful continental rift, East Africa, Nature, 456, 783­787.
+                flank of the plateau. The oldest volcanic expression has been iden-               Corti, G., 2009. Continental rift evolution: from rift initiation to incipient
+                tified in the Turkana Rift 40­54 Ma with the onset of rifting 20                    break-up in the Main Ethiopian Rift, East Africa, Earth-Sci. Rev., 96,
+                Ma later (Ebinger 1989, Ebinger et al. 1993; George et al. 1998;                    doi:10.1016/j.earscirev.2009.06.005.
+                Roberts et al. 2012), but the width of the rift basins is larger in               Delvaux, D., 2001. Tectonic and palaeostress evolution of the Tanganyika-
+                the south, consistent with the present-day geodetic extension rates.                Rukwa-Malawi rift segment, East African Rift System, Mem. Mus. Natn.
+                After 5 Myr rifting also developed south of the Kenya Rift. The                     Hist. Nat., 186, 545­567.
+                Kenya Rift cuts into the plateau, it defines part of the eastern flank            Delvaux, D. & Barth, A., 2010. African stress pattern from formal inversion
+                                                                                                    of focal mechanism data. Implications for rifting dynamics, Tectono-
+                of the Victoria tectonic block, and it affects the distribution of the
+                                                                                                    physics, 482, 105­128.
+                extension rates along the Western Branch, which became larger in
+                                                                                                  Delvaux, D., Levi, K., Kajara, R. & Sarota, J., 1992. Cenozoic paleostress
+                the south than in the north.                                                        and kinematic evolution of the Rukwa: North Malawi rift valley (East
+                    The different segments of the Western Branch are largely amag-                  African rift system), Bull. Cent. Rech. Explor.-Prod. Elf Aquitaine, 16(2),
+                matic and they are tectonically controlled with extension normal to                 383­406.
+                the rift flanks as is the case of Albertine, Kivu or North Tanganyika             Delvaux, D., Kervyn, F., Macheyeki, A.S. & Temu, E.B., 2012. Geodynamic
+                Rifts. In the case of the Rukwa Rift and along the Eastern Branch                   significance of the TRM segment in the East African Rift (W-Tanzania):
+                particularly in the Manyara Rift, rifting is magmatically controlled.               active tectonics and paleostress in the Ufipa plateau and Rukwa basin, J.
+                Here, the extension direction given by seismic studies, the mor-                    Struct. Geol., 37, 161­180.
+                phology of the rift flanks and kinematic analyses indicate rifting is             DeMets, C., Gordon, R.G., Argus, D.F. & Stein, S., 1990. Current plate
+                                                                                                    motions, Geophys. J. Int., 101, 425­478.
+                oblique to the direction of relative tectonic motion. This can be in-
+                                                                                                  Ebinger, C., 1989. Tectonic development of the Western Branch of the East
+                terpreted as the result of changes in the local stress field generated
+                                                                                                    African rift system, Geol. Soc. Am. Bull., 101, 885­903.
+                by magmatic injection. South of 3o S, where magmatic processes                    Ebinger, C., Yemane, T., WoldeGabriel, G., Aronson, J. & Walter, R., 1993.
+                are less pronounced, the tectonic boundary becomes more complex,                    Eocene: recent volcanism and faulting in the southern Main Ethiopian
+                forming a boundary area, with an outer limit that we suggest that                   Rift, J. Geol. Soc., Lond., 150, 99­108.
+                follows a slow right-lateral transform that joins Kerimbas Rift in                Fernandes, R.M.S, Ambrosius, B.A.C., Noomen, R., Bastos, L., Combrinck,
+                the offshore.                                                                       L., Miranda, J.M. & Spakman, W., 2004. Angular velocities of Nubia and
+                                                                                                    Somalia from continuous GPS data: implications on present-day relative
+                                                                                                    kinematics, Earth planet. Sci. Lett., 222, 197­208.
+                AC K N OW L E D G M E N T S                                                       Foster, A. & Jackson, J.A., 1998. Source parameters of large African earth-
+                                                                                                    quakes: implications for crustal rheology and regional kinematics, Geo-
+                Most of the figures were prepared with Mirone suite (Luis 2007) and                 phys. J. Int., 134, 422­448.
+                GMT software tools (Wessel & Smith 1998). The research presented                  George, R., Rogers, N. & Kelley, S., 1998. Earliest magmatism in Ethiopia:
+                here was funded by the Portuguese Science Foundation KINEMA                         evidence for two mantle plumes in one flood basalt province, Geology,
+                project (PTDC/CTE-GIN/64101/2006). DD was supported by the                          26, 923­926.
+                Belgian Science Policy under the Action 1 programme. DSS was                      Global CMT, 2011. Available at: http://www.globalcmt.org, accessed 2011
+                funded by the National Science Foundation Graduate Research Fel-                    October 5.
+                                                                                                  Hartnady, C.J.H., 2002. Earthquake hazard in Africa: perspectives on the
+                lowship Programme.
+                                                                                                    Nubia-Somalia boundary, S. Afr. J. Sci., 98, 425­428.
+                                                                                                  Horner-Johnson, B.C., Gordon, R.G. & Argus, D.F., 2007. Plate kinematic
+                                                                                                    evidence for the existence of a distinct plate between the Nubian and
+                REFERENCES                                                                          Somalian plates along the Southwest Indian Ridge, J. geophys. Res., 112,
+                Albaric, J., D´
+                              everch`
+                                    ere, J., Petit, C., Perrot, J. & Le Gall, B., 2009. Crustal     doi:10.1029/2006JB004519.
+                  rheology and depth distribution of earthquakes: insights from the central       IRIS, 2011. Available athttp://www.iris.edu, accessed 2011 October 5.
+                  and southern East African Rift System, Tectonophysics, 468(1­4), 28­41.         Kaz'min, V   .G., Zonenshayn, L.P., Savostin, L.A. & Bershbitskaya, A.I.,
+                Altamimi, Z., Collilieux, X. & M´   etivier, L., 2011. ITRF2008: an improved        1987. Kinematics of the Afro-Arabian Rift System, Geotectonics, 21,
+                  solution of the international terrestrial reference frame, J. Geod., 85(8),       452­460.
+                  457­473.                                                                        LeGall, B. et al., 2004. Neogene-Recent rift propagation in Central Tanzania:
+                Argus, D.F., Gordon, R.G., Heflin, M.B., Ma, C., Eanes, R.J., Willis, P.,           morphostructural and aeromagnetic evidence from the Kilombero area,
+                  Peltier, W.R. & Owen, S.E., 2010. The angular velocities of the plates and        Geol. Soc. Am. Bull., 116, 490­510.
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+            10     R. M. S. Fernandes et al.
+
+            Lindenfield, M. & Rumpker, G., 2011. Detection of mantle earthquakes           Yang, Z. & Chen, W.-P., 2010. Earthquakes along the East African Rift
+              beneath the East African Rift, Geophys. J. Int., 186, doi:10.1111/j.1365-      System: a multiscale, system-wide perspective, J. geophys. Res., 115,
+              246X.2011.05048.x.                                                             doi:10.1029/2009JB006779.
+            Luis, J.F., 2007. Mirone: a multi-purpose tool for exploring grid data, Com-   Zumberge, J., Heflin, M., Jefferson, D., Watkins, M. & Webb, F., 1997.
+              put. Geosci., 33, 31­41.                                                       Precise Point Positioning for the efficient and robust analysis of GPS data
+            Luis, J.F. & Miranda, J.M., 2008. Reevaluation of magnetic chrons in the         from large networks, J. geophys. Res., 102, 5005­5017.
+              North Atlantic between 35 N and 47 N: implications for the formation
+              of the Azores Triple Junction and associated plateau, J. geophys. Res.,
+              113(B10105), doi:10.1029/2007JB005573.                                       S U P P O RT I N G I N F O R M AT I O N
+            Macheyeki, A.S., Delvaux, D., DeBatist, M. & Mruma, A., 2008. Fault
+              kinematics and tectonic stress in the seismically active Manyara­Dodoma
+                                                                                           Additional Supporting Information may be found in the online ver-
+              Rift segment in Central Tanzania: implications for the East African Rift,    sion of this article:
+              J. Afr. Earth Sci., 51, 163­188.
+                                                                                           Figure S1. De-trended time-series for ELDS (Victoria Block).
+            Nicholas, A., Achauer, U. & Daigieres, M., 1994. Rift initiation by litho-
+                                                                                           Figure S2. De-trended time-series for KISM (Somalia Plate).
+              spheric rupture, Earth planet. Sci. Lett., 123(1­3), 281­298.
+            Prawirodirdjo, L. & Bock, Y., 2004. Instantaneous global plate motion model    Figure S3. De-trended time-series for KSMU (Victoria Block).
+              from 12 years of continuous GPS observations, J. geophys. Res., 109,         Figure S4. De-trended time-series for MAL2 (Somalia Plate).
+              doi:10.1029/2003JB002944.                                                    Figure S5. De-trended time-series for MALI (Somalia Plate).
+            Rebischung, P., Griffiths, J., Ray, J., Schmid, R., Collilieux, X. & Garayt,   Figure S6. De-trended time-series for MBAR (Victoria Block).
+              B., 2011. IGS08: the IGS realization of ITRF2008, GPS Solutions,             Figure S7. De-trended time-series for MOIU (Victoria Block).
+              doi:10.1007/s10291-011-0248-2.                                               Figure S8. De-trended time-series for MOSH.
+            Roberts, E.M. et al., 2012. Initiation of the Western Branch of the East       Figure S9. De-trended time-series for NURK (Victoria Block).
+              African Rift coeval with the Eastern Branch, Nat. Geosci., 5, 289­           Figure S10. De-trended time-series for RCMN (Somalia Plate).
+              294.
+                                                                                           Figure S11. De-trended time-series for REUN (Somalia Plate).
+            Sella, G.F., Dixon, T.H. & Mao, A., 2002. REVEL: a model for recent plate
+                                                                                           Figure S12. De-trended time-series for SCTR (Somalia Plate).
+              velocities from space geodesy, J. geophys. Res., 107, 1­30.
+            Stamps, D.S., Calais, E., Saria, E., Hartnady, C., Nocquet, J.-M., Ebinger,    Figure S13. De-trended time-series for SEY1 (Somalia Plate).
+              C.J. & Fernandes, R.M., 2008. A kinematic model for the East African         Table S1. List of the stations excluded for the final computation of
+              Rift, Geophys. Res. Lett., 35(L05304), doi:10.1029/2007GL032781.             the angular velocities for Nubia.
+            Webb, F. & Zumberge, J., 1995, An introduction to GIPSY/OASIS-II,              Table S2. List of the stations excluded for the final computation
+              Tech. Rep., JPL D-11088, California Institute of Technology, Pasadena,       of the angular velocities for Somalia (http://gji.oxfordjournals.org/
+              California.                                                                  lookup/supp1/doi:10.1093/gji/ggs071/-/DC1).
+            Weeraratne, D.S., Forsyth, D.W. & Fischer, K.M., 2003. Evidence for an
+              upper mantle plume beneath the Tanzania Craton from Rayleigh wave to-        Please note: Oxford University Press is not responsible for the con-
+              mography, J. geophys. Res., 108(B9), 2427, doi:10.1029/2002JB002273.         tent or functionality of any supporting materials supplied by the
+            Wessel, P. & Smith, W.H.F., 1998. New, improved version of the Generic         authors. Any queries (other than missing material) should be di-
+              Mapping Tools released, EOS, Trans. Am. geophys. Un., 79, 579.               rected to the corresponding author for the article.
+
+
+
+
+Downloaded from https://academic.oup.com/gji/article-abstract/193/1/1/733369
+by University of Colorado user
+on 08 July 2018
+
